@@ -1,0 +1,52 @@
+body {
+    padding:0;
+    margin:0;
+    
+}
+
+section{
+    padding: 0 11rem 0 11rem;
+    color: white;
+    background-color: black;
+    height: 100vh;
+    margin-bottom: 1rem;
+
+    /* this code is used to center items  */
+    display: grid;          
+    place-items: center;
+    align-content: center;
+    /* this code is used to center items  */
+}
+
+
+
+
+/* important */
+.hidden{
+    opacity:0;
+    transform:translateX(-100%);
+    transition:all 1s;
+}
+.show{
+    opacity:1;
+    transform:translateX(0%);
+}
+
+/* this is optional */
+/* 
+.logo:nth-child(2){
+    transition-delay: 200ms;
+}
+.logo:nth-child(3){
+    transition-delay: 400ms;
+}
+.logo:nth-child(4){
+    transition-delay: 600ms;
+}
+.logo:nth-child(5){
+    transition-delay: 800ms;
+}
+.logo:nth-child(6){
+    transition-delay: 1000ms;
+} */
+/* important */
